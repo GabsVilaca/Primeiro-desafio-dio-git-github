@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Jo&#227;o carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-29 02:57:25 "/>
+        <attribute name="created" value="Sm/Do28gY2FybG9zO0RFU0tUT1AtRzFSUlJUVjsyMDIyLTA0LTI5OyIwMTo1NzowMCAiOzM1MDc="/>
+        <attribute name="edited" value="Sm/Do28gY2FybG9zO0RFU0tUT1AtRzFSUlJUVjsyMDIyLTA0LTI5OyIwMjo1NzoyNSAiOzE7MzYyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="MEDIAvendas, JANvendas, FEVvendas, MARvendas, ABRvendas" type="Integer" array="False" size=""/>
+            <input variable="JANvendas"/>
+            <input variable="FEVvendas"/>
+            <input variable="MARvendas"/>
+            <input variable="ABRvendas"/>
+            <assign variable="MEDIAvendas" expression="(JANvendas+FEVvendas+MARvendas+ABRvendas)/4"/>
+            <if expression="MEDIAvendas&gt;=5000">
+                <then>
+                    <output expression="&quot;Sua m&#233;dia de vendas &#233; igual a &quot; &amp; MEDIAvendas &amp; &quot;PARAB&#201;NS! Sua comiss&#227;o &#233; de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sua m&#233;dia de vendas &#233; de: &quot; &amp; MEDIAvendas &amp;&#13;&#10;&quot;Sua comiss&#227;o ser&#225; de apenas 3%&quot;" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
