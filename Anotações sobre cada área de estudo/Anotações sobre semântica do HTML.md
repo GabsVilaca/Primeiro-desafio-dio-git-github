@@ -1,12 +1,12 @@
 # Anotações sobre semântica do HTML
 
-**<section>** Utilizado para definir seções da página
+**<section>** Utilizado para definir seções da página.
 
-**<header>** Utilizado para cabeçalho da página ou de parte da página
+**<header>** Utilizado para cabeçalho da página ou de parte da página.
 
-**<article>** Representa conteúdo relevante a página
+**<article>** Representa conteúdo relevante a página.
 
-**<aside>** Texto relacionado ao article; pode ser um texto sobre o autor, uma curiosidade, etc
+**<aside>** Texto relacionado ao article; pode ser um texto sobre o autor, uma curiosidade, etc.
 
 **<footer>** Rodapé da página
 
